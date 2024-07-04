@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    border-right: 1px solid rgba(128, 128, 128, 0.473);
+    position: fixed;
+
+}
+
+.lang {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 0;
+}
+
+.panel {
+    padding-left: 8px;
+    padding-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.icons {
+    margin: 10px;
+    padding-right: 100px;
+    padding-left: 10px;
+    line-height: 3.0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.lower{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+#lfticns {
+    margin: 0;
+}
+
+.thread {
+    margin-top: 60px;
+}
+
+.icons:hover {
+    background-color: rgba(239, 231, 231, 0.455);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.upper {
+    display: flex;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 250px;
+    margin-top: 20px;
+    margin-left: 100px;
+    align-items: center;
+
+}
+
+.status {
+    cursor: pointer;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.status:hover{
+    transform: scale(1.1);
+    transition: all ease 0.2s;
+}
+
+
+.name {
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.statuscir {
+    height: 58px;
+    width: 58px;
+    border: 2px solid rgba(199, 16, 193, 0.878);
+    border-radius: 50%;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+textarea {
+    border: none;
+    outline: 0;
+    font-size: 15px;
+    padding: 8px 8px 8px 0px;
+    resize: none;
+}
+button{
+    outline: 0;
+    border: none;
+    background-color: white;
+}
+
+.lcs-img {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    padding: 10px 10px 10px 0px;/*trbl*/
+}
+.lcs-img:hover{
+    /* filter: drop-shadow(1px 1px); */
+    transform: scale(1.1);
+    transition: all ease 0.1s;
+   
+}
+.vid{
+    width: 380px;
+    height: 500px;
+}
+
+
+.comments {
+    border-bottom: 1px solid rgba(224, 220, 220, 0.619);
+    margin-bottom: 10px;
+}
+
+.lcs {
+    display: inline;
+}
+
+.save {
+    float: right;
+}
+
+
+.more {
+    /* margin-left: 220px; */
+    position: relative;
+    left: 220px;
+}
+.more:hover{
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+}
+
+.cname {
+    font-size: 13px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    ;
+}
